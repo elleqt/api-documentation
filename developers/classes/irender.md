@@ -245,3 +245,68 @@ local icon_size = g_Render.CalcWeaponIconSize(7, 16)
 print("X size: "..tostring(icon_size.x).." | Y size: "..tostring(icon_size.y))
 ```
 
+## LoadImage
+
+### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| bytes | bytes | Image bytes |
+| size | Vector2 | Texture size |
+
+### Return value:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| texture | bytes | Texture bytes |
+
+```lua
+local size = Vector2.new(500, 120)
+local url = "https://neverlose.cc/static/assets/img/logo.png"
+local bytes = Http.Get(url)
+local image_from_bytes = g_Render.LoadImage(bytes, size)
+```
+
+## LoadImageFromFile
+
+### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| path | string | Image path |
+| size | Vector2 | Texture size |
+
+### Return value:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| texture | bytes | Texture bytes |
+
+```lua
+local size = Vector2.new(500, 120)
+local path = "D:\\downloads\\logo.png"
+local image_from_disk = g_Render.LoadImage(path, size)
+```
+
+## Image
+
+### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| texture | bytes | Texture bytes |
+| pos | Vector2 | Texture position |
+| size | Vector2 | Texture size |
+
+### Return value:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+
+
+```lua
+cheat.RegisterCallback("draw", function()
+    g_Render.Image(image_from_bytes, pos, size)
+	g_Render.Image(image_from_disk, pos2, size)
+end)
+```

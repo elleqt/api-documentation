@@ -11,7 +11,7 @@ To register a callback, you can call [cheat.RegisterCallback](../classes/cheat.m
 * **prediction** - createmove inside cheat prediction. 1 argument passed to callback - [C\_UserCmd](../types/c_usercmd.md)
 * **pre\_prediction** - createmove before cheat prediction. 1 argument passed to callback - [C\_UserCmd](../types/c_usercmd.md)
 * **events** - game events. [IGameEvent](../classes/igameevent.md) pointer passed.
-* **frame_stage** - frame stage. [number] stage passed.
+* **frame_stage** - frame stage. stage(number) passed.
 
 
 {% hint style="info" %}
