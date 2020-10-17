@@ -307,6 +307,6 @@ local image_from_disk = g_Render.LoadImage(path, size)
 ```lua
 cheat.RegisterCallback("draw", function()
     g_Render.Image(image_from_bytes, pos, size)
-	g_Render.Image(image_from_disk, pos2, size)
+    g_Render.Image(image_from_disk, pos2, size)
 end)
 ```
