@@ -11,6 +11,8 @@ To register a callback, you can call [cheat.RegisterCallback](../classes/cheat.m
 * **prediction** - createmove inside cheat prediction. 1 argument passed to callback - [C\_UserCmd](../types/c_usercmd.md)
 * **pre\_prediction** - createmove before cheat prediction. 1 argument passed to callback - [C\_UserCmd](../types/c_usercmd.md)
 * **events** - game events. [IGameEvent](../classes/igameevent.md) pointer passed.
+* **frame_stage** - frame stage. [number] stage passed.
+
 
 {% hint style="info" %}
 You can read about events [here](https://wiki.alliedmods.net%20Counter-Strike:_Global_Offensive_Events).
