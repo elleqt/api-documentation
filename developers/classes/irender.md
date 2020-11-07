@@ -52,6 +52,23 @@ g_Render.Box(Vector2.new(0, 0), Vector2.new(100, 100), Color.new(1.0, 1.0, 1.0, 
 g_Render.BoxFilled(Vector2.new(0, 0), Vector2.new(100, 100), Color.new(1.0, 1.0, 1.0, 1.0))
 ```
 
+## GradientBoxFilled
+
+### Parameters:
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| pos | Vector2 | Start 2D Position on the screen |
+| pos2 | Vector2 | End 2D Position on the screen |
+| clr | Color | GradientBoxFilled's color 1 |
+| clr2 | Color | GradientBoxFilled's color 2 |
+| clr3 | Color | GradientBoxFilled's color 3 |
+| clr4 | Color | GradientBoxFilled's color 4 |
+
+```lua
+g_Render.GradientBoxFilled(Vector2.new(100, 100), Vector2.new(300, 300), Color.new(0, 0, 0, 1), Color.new(0, 0, 0, 1), Color.new(1, 1, 1, 1), Color.new(1, 1, 1, 1))
+```
+
 ## Circle
 
 ### Parameters:
