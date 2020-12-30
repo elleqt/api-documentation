@@ -266,7 +266,7 @@ local screen_pos = g_Render:ScreenPosition(Vector.new(0, 0, 0))
 
 ### Usage:
 ```lua
-g_Render:Circle3D(Vector.new(0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
+g_Render:Circle3D(Vector.new(0, 0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
 ```
 
 ## Circle3DFilled
@@ -282,7 +282,7 @@ g_Render:Circle3D(Vector.new(0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
 
 ### Usage:
 ```lua
-g_Render:CircleFilled3D(Vector.new(0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
+g_Render:CircleFilled3D(Vector.new(0, 0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
 ```
 
 ## Cylinder3DFilled
@@ -299,7 +299,7 @@ g_Render:CircleFilled3D(Vector.new(0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))
 
 ### Usage:
 ```lua
-g_Render:CylinderFilled3D(Vector.new(0, 0), 58, 10.0, 30.0, Color.new(1.0, 1.0, 1.0))
+g_Render:CylinderFilled3D(Vector.new(0, 0, 0), 58, 10.0, 30.0, Color.new(1.0, 1.0, 1.0))
 ```
 
 ## GradientBoxFilled
