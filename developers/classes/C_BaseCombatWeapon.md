@@ -97,7 +97,7 @@
 
 ## GetRenderBounds
 
-### Parameters:
+### Return value:
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
