@@ -33,7 +33,7 @@ You can view callbacks list [here](../other/callbacks.md).
 
 ```lua
 cheat.RegisterCallback("draw", function()
-    g_Render.Text("Hello world, it's me", Vector2.new(10.0, 15.0), Color.new(1.0, 1.0, 1.0), 16)
+    g_Render:Text("Hello world, it's me", Vector2.new(10.0, 15.0), Color.new(1.0, 1.0, 1.0), 16)
 end)
 ```
 
